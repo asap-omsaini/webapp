@@ -1,0 +1,20 @@
+2016-02-18T21:33:34.148966000 0.387617s notice: Recursively removing directory /Users/Andy/asap/rethinkdb_data/tmp
+2016-02-18T21:33:34.150541000 0.389196s notice: Initializing directory /Users/Andy/asap/rethinkdb_data
+2016-02-18T21:33:34.150633000 0.389282s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/Users/Andy/asap/rethinkdb_data' did not already exist or is empty.)
+2016-02-18T21:33:34.150664000 0.389314s notice: Running rethinkdb 2.2.4 (CLANG 7.0.2 (clang-700.1.81))...
+2016-02-18T21:33:34.164186000 0.402838s notice: Running on Darwin 14.5.0 x86_64
+2016-02-18T21:33:34.164246000 0.402895s notice: Loading data from directory /Users/Andy/asap/rethinkdb_data
+2016-02-18T21:33:34.295609000 0.534259s info: Automatically using cache size of 100 MB
+2016-02-18T21:33:34.295625000 0.534274s warn: Cache size does not leave much memory for server and query overhead (available memory: 605 MB).
+2016-02-18T21:33:34.295631000 0.534281s warn: Cache size is very low and may impact performance.
+2016-02-18T21:33:34.299036000 0.537686s notice: Listening for intracluster connections on port 29015
+2016-02-18T21:33:34.309486000 0.548135s notice: Listening for client driver connections on port 28015
+2016-02-18T21:33:34.309704000 0.548354s notice: Listening for administrative HTTP connections on port 8080
+2016-02-18T21:33:34.309712000 0.548361s notice: Listening on addresses: 127.0.0.1, ::1
+2016-02-18T21:33:34.309714000 0.548363s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2016-02-18T21:33:34.309718000 0.548368s notice: Server ready, "MacBook_Air_2_local_xt2" 042d765e-12c3-40fa-bd78-ff5eaa5725ff
+2016-02-18T21:33:36.628148000 2.866672s notice: Server got SIGINT from pid 704, uid 501; shutting down...
+2016-02-18T21:33:36.628277000 2.866801s notice: Shutting down client connections...
+2016-02-18T21:33:36.628401000 2.866925s notice: All client connections closed.
+2016-02-18T21:33:36.628409000 2.866933s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2016-02-18T21:33:36.631537000 2.870061s notice: Storage engine shut down.

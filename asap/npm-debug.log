@@ -1,0 +1,28 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/Cellar/node/5.6.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'bower' ]
+2 info using npm@3.6.0
+3 info using node@v5.6.0
+4 verbose stack Error: Cannot find module 'npm-autoinit/autoinit'
+4 verbose stack     at Function.Module._resolveFilename (module.js:339:15)
+4 verbose stack     at Function.Module._load (module.js:290:25)
+4 verbose stack     at Module.require (module.js:367:17)
+4 verbose stack     at require (internal/module.js:16:19)
+4 verbose stack     at cb (/usr/local/lib/node_modules/npm/lib/npm.js:290:9)
+4 verbose stack     at /usr/local/lib/node_modules/npm/lib/npm.js:386:16
+4 verbose stack     at /usr/local/lib/node_modules/npm/lib/config/core.js:80:7
+4 verbose stack     at Array.forEach (native)
+4 verbose stack     at /usr/local/lib/node_modules/npm/lib/config/core.js:79:13
+4 verbose stack     at f (/usr/local/lib/node_modules/npm/node_modules/once/once.js:17:25)
+5 verbose cwd /Users/Andy/asap
+6 error Darwin 14.5.0
+7 error argv "/usr/local/Cellar/node/5.6.0/bin/node" "/usr/local/bin/npm" "install" "bower"
+8 error node v5.6.0
+9 error npm  v3.6.0
+10 error code MODULE_NOT_FOUND
+11 error Cannot find module 'npm-autoinit/autoinit'
+12 error If you need help, you may report this error at:
+12 error     <https://github.com/npm/npm/issues>
+13 verbose exit [ 1, true ]
